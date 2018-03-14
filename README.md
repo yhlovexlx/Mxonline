@@ -4,15 +4,15 @@
 |目录                                    |介绍                                                                           |
 |:------                                 |:--------------------                                                          |
 |apps                                    |本项目应用，可以包含多个                                                     |
-|   apps.course                          |  本项目应用，课程模块                                                        | 
-|       apps.course.migrations           |      用于记录 models 中数据的变更。                                             | 
-|*** apps.course.admin.py                |*** 映射 models 中的数据到 Django 自带的 admin 后台。                          | 
-|*** apps.course.adminx.py               |*** 本项目应用，可以包含多个                                                   | 
-|*** apps.course.apps.py                 |*** 在新的 Django 版本中新增，用于应用程序的配置。                             | 
-|*** apps.course.models.py               |*** 创建应用程序数据表模型（对应数据库的相关操作）。                           | 
-|*** apps.course.tests.py                |*** 创建 Django 测试                                                           | 
-|*** apps.course.urls.py                 |*** Django 项目的 URL 声明                                                     | 
-|*** apps.course.views.py                |*** 控制向前端显示哪些数据                                                     | 
+|** apps.course                          |** 本项目应用，课程模块                                                        | 
+|**** apps.course.migrations             |**** 用于记录 models 中数据的变更。                                             | 
+|**** apps.course.admin.py               |**** 映射 models 中的数据到 Django 自带的 admin 后台。                          | 
+|**** apps.course.adminx.py              |**** 本项目应用，可以包含多个                                                   | 
+|**** apps.course.apps.py                |**** 在新的 Django 版本中新增，用于应用程序的配置。                             | 
+|**** apps.course.models.py              |**** 创建应用程序数据表模型（对应数据库的相关操作）。                           | 
+|**** apps.course.tests.py               |**** 创建 Django 测试                                                           | 
+|**** apps.course.urls.py                |**** Django 项目的 URL 声明                                                     | 
+|**** apps.course.views.py               |**** 控制向前端显示哪些数据                                                     | 
 |** apps.operation                       |** 本项目应用，授课模块                                                        |
 |** apps.organization                    |** 本项目应用，课程机构模块                                                    |
 |** apps.users                           |** 本项目应用，用户模块                                                        |
