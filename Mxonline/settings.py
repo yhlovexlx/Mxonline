@@ -45,8 +45,8 @@ INSTALLED_APPS = [
     'courses',
     'operation',
     'organization',
-    'xadmin',
-    'crispy_forms',
+    'xadmin',# xadmin必须
+    'crispy_forms', # xadmin必须
     'captcha',
     'pure_pagination',
     'DjangoUeditor',
