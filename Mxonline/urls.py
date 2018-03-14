@@ -29,6 +29,8 @@ from users.views import LoginView, RegisterView, ActiveUserView, ForgetPwdView, 
     IndexView
 
 urlpatterns = [
+
+    # url(r'^admin/', admin.site.urls),
     path('xadmin/', xadmin.site.urls),
     # TemplateView.as_view会将template转换为view
     #path('', TemplateView.as_view(template_name= "index.html"), name=  "index"),
