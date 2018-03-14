@@ -28,6 +28,9 @@
 |manage.py                               |一个实用的命令行工具，可让你以各种方式与该 Django 项目进行交互。             |
 |mxonline3.sql                           |本项目数据库脚本文件                                                         |
 
+### xadmin创建超级管理员权限：yanghl/yanghl123
+* 控制台进入到项目的manage.py文件目录
+* 执行python manage.py createsuperuser后一次输入用户名和密码(8位以上数字字母)
 
 
 
