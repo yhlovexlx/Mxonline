@@ -1,9 +1,9 @@
 ## 教育网站Demo
-
+--------------------------------------------------------------------------------------------------------------------------
 ### 项目说明
-使用Python3.6.3+Django2.0.1+xadmin整合的一个教育网站DEMO
-
-Django 版本对应的 Python 版本：
+--------------------------------------------------------------------------------------------------------------------------
+- 使用Python3.6.3+Django2.0.1+xadmin整合的一个教育网站DEMO
+- Django 版本对应的 Python 版本：
 
 |Django版本          |Python版本                                      |
 |:------             |:--------------------                           |
@@ -11,8 +11,9 @@ Django 版本对应的 Python 版本：
 |1.9, 1.10           |2.7, 3.4, 3.5                                   | 
 |1.11                |2.7, 3.4, 3.5, 3.6                              | 
 |2.0                 |3.5+                                            | 
---------------------------------------------------------------------------------------------------------------------------
+
 ### 项目结构
+--------------------------------------------------------------------------------------------------------------------------
 |目录                                    |介绍                                                                           |
 |:------                                 |:--------------------                                                          |
 |apps                                    |本项目应用，可以包含多个                                                       |
@@ -40,7 +41,37 @@ Django 版本对应的 Python 版本：
 |manage.py                               |一个实用的命令行工具，可让你以各种方式与该 Django 项目进行交互。               |
 |mxonline3.sql                           |本项目数据库脚本文件                                                           |
 
+### 常用命令行:
+--------------------------------------------------------------------------------------------------------------------------
+#### 新建django project
+- django-admin.py startproject project-name
+#### 新建django app命令
+- django-admin.py startapp app-name (or) python manage.py startapp app-name
+#### 同步数据库
+- python manage.py syncdb
+#### (django1.7.1及以上版本需要使用以下命令)
+- python manage.py makemigrations
+- python manage.py migrate
+#### 运行django项目，不加port默认为8000
+- python manage.py runserver port
+- ex: python manage.py runserver 8080
+#### 清空数据库
+- python manage.py flush
+#### 创建超级管理员
+- python manage.py createsuperuser
+#### 修改管理员密码
+- python manage.py changepassword username
+#### 导出数据
+- python manage.py dumpdata appname > appname.json
+#### 导入数据
+- python manage.py loaddata appname.json
+#### 进入django项目命令终端
+- python manage.py shell
+#### 进入数据库命令行
+- python manage.py dbshell
+
 ### xadmin创建超级管理员权限：yanghl/yanghl123
+--------------------------------------------------------------------------------------------------------------------------
 * 控制台进入到项目的manage.py文件目录
 * 执行python manage.py createsuperuser后一次输入用户名和密码(8位以上数字字母)
 
