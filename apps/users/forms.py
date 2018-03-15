@@ -1,7 +1,7 @@
 # encoding: utf-8
 from users.models import UserProfile
 
-__author__ = 'mtianyan'
+__author__ = 'yanghl'
 __date__ = '2018/1/10 0010 05:56'
 
 # 引入Django表单

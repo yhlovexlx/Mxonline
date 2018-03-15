@@ -1,8 +1,8 @@
 # encoding: utf-8
 from courses.models import Course, Video, Lesson, CourseResource
 
-__author__ = 'mtianyan'
-__date__ = '2018/1/9 0009 08:02'
+__author__ = 'yanghl'
+__date__ = '2018/3/14 0009 08:02'
 
 import xadmin
 from django.contrib.auth.models import Group, Permission
@@ -25,8 +25,8 @@ class BaseSetting(object):
 
 # x admin 全局配置参数信息设置
 class GlobalSettings(object):
-    site_title = "天涯明月笙: 慕课后台管理站"
-    site_footer = "mtianyan's mooc"
+    site_title = "教育网站后台管理"
+    site_footer = "Copyright 2018 - 3000 yanghl. All Rights Reserve"
     # 收起菜单
     # menu_style = "accordion"
 

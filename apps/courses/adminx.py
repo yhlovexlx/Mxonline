@@ -1,5 +1,5 @@
 # encoding: utf-8
-__author__ = 'mtianyan'
+__author__ = 'yanghl'
 __date__ = '2018/1/9 0009 20:10'
 
 from .models import Course, Lesson, Video, CourseResource

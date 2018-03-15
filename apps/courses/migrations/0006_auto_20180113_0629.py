@@ -35,6 +35,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='video',
             name='url',
-            field=models.CharField(default='http://blog.mtianyan.cn/', max_length=200, verbose_name='访问地址'),
+            field=models.CharField(default='http://blog.yanghl.cn/', max_length=200, verbose_name='访问地址'),
         ),
     ]

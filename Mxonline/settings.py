@@ -125,9 +125,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 
+# 下面两个属性是xadmin的配置
 # 语言改为中文
 LANGUAGE_CODE = 'zh-hans'
-
 # 时区改为上海
 TIME_ZONE = 'Asia/Shanghai'
 
@@ -152,10 +152,10 @@ STATICFILES_DIRS = [
 
 EMAIL_HOST = "smtp.qq.com"
 EMAIL_PORT = 25
-EMAIL_HOST_USER = "mxonline@mtianyan.cn"
+EMAIL_HOST_USER = "mxonline@yanghl.cn"
 EMAIL_HOST_PASSWORD = "ystfiwntwmonjebe"
 EMAIL_USE_TLS= True
-EMAIL_FROM = "mxonline@mtianyan.cn"
+EMAIL_FROM = "mxonline@yanghl.cn"
 
 # 设置我们上传文件的路径
 

@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
-	<title>登录|mtianyan慕课小站</title>
+	<title>登录|yanghl慕课小站</title>
 	<link rel="stylesheet" type="text/css" href="{% static 'css/reset.css' %}">
 	<link rel="stylesheet" type="text/css" href="{% static 'css/login.css' %}">
 </head>
@@ -37,7 +37,7 @@
 <header>
     <div class="c-box fff-box">
         <div class="wp header-box">
-            <p class="fl hd-tips">mtianyan慕课小站，在线学习平台！</p>
+            <p class="fl hd-tips">yanghl慕课小站，在线学习平台！</p>
             <ul class="fr hd-bar">
                 <li>服务电话：<span>23333333</span></li>
                 <li class="active"><a href="{% url 'login' %}">[登录]</a></li>
@@ -59,7 +59,7 @@
                     <ul class="imgs">
                             <li><a href=""><img width="483" height="472" src="{% static 'images/register2.png' %}" /></a></li>
                             <li><a href=""><img width="483" height="472" src="{% static 'images/register1.png' %}" /></a></li>
-                            <li><a href=""><img width="483" height="472" src=" http://myphoto.mtianyan.cn/blog/180111/BF6d8jeg5K.png?imageslim" /></a></li>
+                            <li><a href=""><img width="483" height="472" src=" http://myphoto.yanghl.cn/blog/180111/BF6d8jeg5K.png?imageslim" /></a></li>
                     </ul>
                 </div>
                 <div class="unslider-arrow prev"></div>
@@ -89,7 +89,7 @@
                 <input type="hidden" name="next" value="{{ redirect_url }}" />
                 {% csrf_token %}
                 </form>
-                <p class="form-p">没有mtianyan慕课小站帐号？<a href="{% url 'register' %}">[立即注册]</a></p>
+                <p class="form-p">没有yanghl慕课小站帐号？<a href="{% url 'register' %}">[立即注册]</a></p>
             </div>
         </div>
     </div>
